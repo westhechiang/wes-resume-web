@@ -1,0 +1,114 @@
+{
+  "profile": {
+    "name": {
+      "first": "Wesley",
+      "last": "Chiang",
+      "nickname": "Wes"
+    },
+    "title": "Sr. FullStack Engineer",
+    "location": "Santa Monica, CA",
+    "contact": {
+      "email": "westhechiang@gmail.com",
+      "github": "https://github.com/westhechiang",
+      "linkedIn": "https://bit.ly/2xOviUK"
+    },
+    "summary": {
+      "highlight": "I am a software developer who is passionate about building quality software that makes users happy.",
+      "details": [
+        "Business-minded and know how to prioritize projects and tasks to maximize benefits to the organization",
+        "A quick learner with experience in vetting and working with new technologies to find the best solutions to problems",
+        "A strong team player and comfortable with taking on leadership roles",
+        "Accountable; I execute quickly and with high quality; I identify bottlenecks and keep a projects moving forward"
+      ]
+    },
+    "skills": {
+      "languages": [
+        "JavaScript (ES6)",
+        "Python",
+        "CSS/SASS",
+        "APEX",
+        "Visualforce"
+      ],
+      "database": [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "technologies": [
+        "React",
+        "Node",
+        "Webpack",
+        "Grunt",
+        "Gulp",
+        "Salesforce",
+        "Git"
+      ],
+      "hobbies": [
+        "Woodworking",
+        "Gardening",
+        "Camping",
+        "Cooking",
+        "Surfing"
+      ]
+    }
+  },
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "location": "Los Angeles, CA",
+      "company": "RealtyMogul.com",
+      "duration": {
+        "start": "01/2017",
+        "end": "Current"
+      },
+      "accomplishments": [
+        "Managed the evaluation of various open source front-end technologies, ultimately implementing and training a team of 7 engineers on React, Redux, Redux-Saga, and Styled-Components",
+        "Worked closely with in-house designers to create and maintain RealtyMogul.com's core UI component library using Storybook; maximizing code reuse, consistency, and team efficiency",
+        "Established front-end coding standards and best practices such as Test Driven Development; implemented linters and tests that were automatically run on code commit, which prevented failing code from being introduced to the code base and ultimately, fewer bugs for QA",
+        "Overhauled front-end tooling / build system, decreasing front-end code compile time from 10s to ~0.2s and drastically improving developer experience",
+        "Designed and built a suite of microservices that ingests and normalizes 3rd party data from multiple sources, and RESTful API's for user interfaces built in React to interact with",
+        "Templatize the creation of microservices using Cookiecutter in order to maximize consistency and efficiency"
+      ]
+    },
+    {
+      "title": "Salesforce Technical Architect",
+      "location": "Los Angeles, CA",
+      "company": "RealtyMogul.com",
+      "duration": {
+        "start": "02/2015",
+        "end": "01/2017"
+      },
+      "accomplishments": [
+        "Requirements gathered across multiple cross-functional business orgs; completely reimplemented RealtyMogul.com's Salesforce instance with Custom Objects, and custom APEX code to better match their unique business requirements",
+        "Established Salesforce.com APEX and Visualforce development, and administration best practices to ensure long-term maintainability and ease of customization",
+        "Resolved system-wide synchronization failures between Drupal and Salesforce and improved site performance and reliability by migrating all data synchronizations from synchronous to asynchronous",
+        "Built custom GUI for Salesforce Administrators to better control, monitor, and manage the synchronization of data between Drupal and Salesforce",
+        "Built custom Round Robin lead distribution system which randomly and fairly assigned new leads across 4 sales teams and over 20 sales representatives; also implemented an administrative interface for Salesforce admins to add and modifying lead distribution rules without requiring dev resources or additional deployments",
+        "Built automations and data entry interfaces for Sales and Operations to complete legal compliance tasks more efficiently and accurately",
+        "Identified scaling issues for Operations team and built and maintained the 'Marketplace Operations Dashboard', a custom dashboard built with PHP and JQuery that enabled team members to better track and manage investment lifecycles by fetching and displaying relevant data stored between Salesforce and Drupal, and providing custom automated processes"
+      ]
+    },
+    {
+      "title": "Sales Technology Engineer",
+      "location": "Santa Monica, CA",
+      "company": "Cornerstone OnDemand",
+      "duration": {
+        "start": "04/2014",
+        "end": "02/2015"
+      },
+      "accomplishments": [
+        "Built the Cornerstone Sales Intranet using AngularJS; connected global Sales teams and created pathways for the dissemination of sales best practices and sales collateral",
+        "Wrote unit tests that more thoroughly tested legacy Salesforce APEX code written by contractors; improved org-wide code coverage",
+        "Refactored legacy APEX and Visualforce code to meet the needs of Cornerstone's changing business"
+      ]
+    }
+  ],
+  "education": {
+    "school": "UC Berkeley",
+    "duration": {
+      "start": "2008",
+      "end": "2011"
+    },
+    "location": "Berkeley, CA",
+    "degree": "BA, Political Economics"
+  }
+}
