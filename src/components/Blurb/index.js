@@ -2,9 +2,40 @@ import React from 'react';
 import {
   Body,
   ExtendedFlex,
+  TextLink,
 } from 'wes-coreui';
 
 const Blurb = () => {
+  const linkBuilder = (link) => {
+    const links = {
+      react: {
+        label: 'React',
+        href: 'https://reactjs.org/',
+      },
+      styledComponents: {
+        label: 'Styled Components',
+        href: 'https://www.styled-components.com/',
+      },
+      repo: {
+        label: 'https://github.com/westhechiang/wes-resume-web',
+        href: 'https://github.com/westhechiang/wes-resume-web',
+      },
+    };
+
+    return (
+      <TextLink
+        rel="noopener noreferrer"
+        href={links[link].href}
+        target="_blank"
+        color="gray.0"
+        fontWeight={3}
+        fontStyle="italic"
+      >
+        { links[link].label }
+      </TextLink>
+    );
+  };
+
   return (
     <ExtendedFlex
       w={1}
@@ -16,7 +47,7 @@ const Blurb = () => {
         m={0}
         color="gray.0"
       >
-        Made by Wes Chiang, built with <a rel="noopener noreferrer" href="https://reactjs.org/" target="_blank">React</a> and <a rel="noopener noreferrer" href="https://www.styled-components.com/" target="_blank">Styled Components</a>. Check out the code at <a rel="noopener noreferrer" href="https://github.com/westhechiang/wes-resume-web" target="_blank">https://github.com/westhechiang/wes-resume-web</a>
+        Made by Wes Chiang, built with { linkBuilder('react') } and { linkBuilder('styledComponents') }. Check out the code at { linkBuilder('repo') }.
       </Body>
     </ExtendedFlex>
   );
